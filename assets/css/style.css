@@ -138,3 +138,19 @@ footer {
     margin-top: 10px;
     width: 98%;
 }
+
+img {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+.container-portfolio {
+    max-width:960px;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
