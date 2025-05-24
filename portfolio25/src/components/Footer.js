@@ -36,7 +36,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <Typography level="body-md" fontWeight="lg">
-        © {new Date().getFullYear()} Media Alchemy. All rights reserved.
+        © {new Date().getFullYear()} Made By FiRi. All rights reserved.
       </Typography>
 
       <SocialIcons>

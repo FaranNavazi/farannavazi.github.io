@@ -49,7 +49,7 @@ const Navbar = () => {
     <>
       <NavbarContainer>
         <Typography level="h2" fontWeight="lg" sx={{color:'#00FF41'}}>
-          Media Alchemy
+          Made By FiRi
         </Typography>
 
         <NavLinks>
