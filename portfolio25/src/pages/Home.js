@@ -72,19 +72,19 @@ const Home = () => {
             Your website is your first impression—and we make sure it’s a strong one. We craft custom websites tailored to your business goals, whether you're just starting out or ready to scale. Fast loading, mobile-ready, and built with love, your site will do more than just look good—it'll work hard for you.
           </Typography>
           <Box
-  component="img"
-  src={images[currentImage]}
-  alt="Web Design"
-  sx={{
-    width: '100%',
-    maxWidth: 600,
-    height: 360,
-    objectFit: 'cover',
-    borderRadius: 6,
-    boxShadow: '0 0 20px #66bb6a',
-    transition: 'opacity 0.8s ease-in-out',
-  }}
-/>
+            component="img"
+            src={images[currentImage]}
+            alt="Web Design"
+            sx={{
+              width: '100%',
+              maxWidth: 600,
+              height: 360,
+              objectFit: 'cover',
+              borderRadius: 6,
+              boxShadow: '0 0 20px #66bb6a',
+              transition: 'opacity 0.8s ease-in-out',
+            }}
+          />
         </Box>
 
         {/* Section 2: Deployment */}
@@ -108,11 +108,12 @@ const Home = () => {
           >
             <Box
               component="img"
-              src="/images/deployment-large.jpg"
+              src="/assets/images/full-service-cycle.png"
               alt="Deployment"
               sx={{
-                width: 240,
-                height: 240,
+                width: 540,
+                height: 540,
+                marginLeft: 50,
                 borderRadius: '50%',
                 objectFit: 'cover',
                 boxShadow: '0 0 20px #81c784',
@@ -120,7 +121,7 @@ const Home = () => {
             />
           </Box>
           <Box sx={{ maxWidth: 700, textAlign: { xs: 'center', md: 'left' } }}>
-            <Typography level="h2" sx={{ fontWeight: 'bold', color: '#C8E6C9' }}>
+            <Typography level="h2" sx={{ fontWeight: 'bold', color: '#A5D6A7' }}>
               Seamless Setup & Deployment
             </Typography>
             <Typography level="body1" sx={{ fontSize: '1.2rem', lineHeight: 1.7 }}>
@@ -150,11 +151,12 @@ const Home = () => {
           >
             <Box
               component="img"
-              src="/images/seo-marketing-large.jpg"
+              src="/assets/images/seo.png"
               alt="SEO & Marketing"
               sx={{
-                width: 260,
-                height: 260,
+                width: 360,
+                height: 340,
+                marginRight: 50,
                 borderRadius: 12,
                 objectFit: 'cover',
                 boxShadow: '0 0 20px #A5D6A7',
@@ -162,7 +164,7 @@ const Home = () => {
             />
           </Box>
           <Box sx={{ maxWidth: 700, textAlign: { xs: 'center', md: 'left' } }}>
-            <Typography level="h2" sx={{ fontWeight: 'bold', color: '#AED581' }}>
+            <Typography level="h2" sx={{ fontWeight: 'bold', color: '#A5D6A7' }}>
               Smart SEO & Honest Marketing
             </Typography>
             <Typography level="body1" sx={{ fontSize: '1.2rem', lineHeight: 1.7 }}>
@@ -170,6 +172,43 @@ const Home = () => {
             </Typography>
           </Box>
         </Box>
+
+
+        {/* Connect With Me Button */}
+<Box
+  sx={{
+    textAlign: 'center',
+    py: 8,
+    borderTop: '1px solid #2e7d32',
+  }}
+>
+  <Typography level="h2" sx={{ fontWeight: 'bold', color: '#A5D6A7', mb: 3 }}>
+    let's bring your VISION to life!
+  </Typography>
+  <Box>
+    <a
+      href="#"
+      // Replace '#' with your Calendly link later
+      style={{
+        textDecoration: 'none',
+        backgroundColor: '#66bb6a',
+        color: '#000',
+        padding: '12px 24px',
+        borderRadius: '8px',
+        fontWeight: 'bold',
+        fontSize: '1rem',
+        transition: 'all 0.3s ease-in-out',
+      }}
+      onMouseOver={(e) => (e.target.style.backgroundColor = '#C9E265')}
+      onMouseOut={(e) => (e.target.style.backgroundColor = '#66bb6a')}
+    >
+      Plan a Chat With Me
+    </a>
+  </Box>
+</Box>
+
+
+
       </Box>
 
     </>
